@@ -1,9 +1,104 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 40px;
+/*body {
+    background-color: #ddd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  color: #333;
+.login {
+  width: 100%;
+  max-width: 380px;     
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: #fff;
+}*/
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.login {
+    width: 100%;
+    max-width: 380px;
+    padding: 24px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Logo cuadrado */
+.login-logo {
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Título */
+.login-title {
+
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Texto descriptivo */
+.login-subtitle {
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+}
+
+/* Formulario */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-form label {
+    font-size: 11px;
+    font-weight: 500;
+    font-weight: 600;
+    color: #555;
+}
+
+.login-form input {
+    padding: 10px;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    padding: 10px;
+    font-size: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
