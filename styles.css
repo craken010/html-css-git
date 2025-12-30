@@ -1,21 +1,3 @@
-/*body {
-    background-color: #ddd;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.login {
-  width: 100%;
-  max-width: 380px;     
-  padding: 24px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-sizing: border-box;
-  background: #fff;
-}*/
-
 
 body {
     min-height: 100vh;
@@ -27,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Contenedor principal */
+
 .login {
     width: 100%;
     max-width: 380px;
@@ -41,7 +23,7 @@ body {
     gap: 16px;
 }
 
-/* Logo cuadrado */
+
 .login-logo {
     width: 40px;
     height: 40px;
@@ -56,7 +38,7 @@ body {
     font-weight: bold;
 }
 
-/* Título */
+
 .login-title {
 
     margin: 0;
@@ -64,7 +46,7 @@ body {
     font-size: 22px;
 }
 
-/* Texto descriptivo */
+
 .login-subtitle {
     margin: 0;
     text-align: center;
@@ -72,7 +54,7 @@ body {
     color: #555;
 }
 
-/* Formulario */
+
 .login-form {
     display: flex;
     flex-direction: column;
